@@ -1,7 +1,6 @@
-// These mirror the backend interfaces (backend/src/types/index.ts)
-// Keeping frontend/backend types in sync is one of the biggest wins of using
-// TypeScript across a full-stack project — you catch API contract mismatches
-// at compile time instead of at runtime.
+// Mirrors backend/src/types/index.ts — keeping these in sync is what makes
+// TypeScript actually useful across a full-stack project: a mismatched API
+// response shape becomes a compile error here instead of a runtime bug.
 
 export interface User {
   id: string;
